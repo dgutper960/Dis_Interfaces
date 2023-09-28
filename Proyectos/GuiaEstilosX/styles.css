@@ -54,3 +54,16 @@ a{
     text-decoration: none;
     color: inherit; /* Hereda el color de su padre */
 }
+
+.zonaContenido{
+    grid-column: 2 / 5; /* desde la línea 1 a la 5 (4 columnas y empiezan en 1)*/
+    margin: 5px;
+    padding-left: 5px;
+
+    border-radius: 6px;
+    border-left: 2px;
+    border-top: 2px;
+
+
+
+}
