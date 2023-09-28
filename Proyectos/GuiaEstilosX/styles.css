@@ -1,11 +1,35 @@
 .container{
-    height: 100vh; 
+    height: 100vh; /* vh indica que es vertical*/
     margin: 10px;
+    padding: 10px;
     background-color: black;
+    overflow: auto;
 }
 
 .divCabecera {
     height: 100px;
     margin: 10px;
     background-color: aquamarine;
+}
+
+.divPrincipal{
+    display: grid;
+    /* Vamos a dividir este contenedor en 4 partes iguales*/
+    grid-template-columns: repeat(4, 1fr); 
+    /* fr= fraccion en el que está contenido */
+
+    height: 100%;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.zonaNavegacion{
+    /* FlexBox propiedad que ordena los elementos automáticamente 
+    --> Accedemos a una guía en internet */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: aqua;
+
+    
 }
