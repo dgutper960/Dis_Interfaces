@@ -25,6 +25,10 @@
     background-color: antiquewhite;
 }
 
+.first-div, .second-div {
+    flex: 1;
+  }
+
 .zonaNavegacion{
     /* FlexBox propiedad que ordena los elementos automáticamente 
     --> Accedemos a una guía en internet */
