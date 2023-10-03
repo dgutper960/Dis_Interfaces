@@ -51,6 +51,17 @@ La funcionalidad
 -> Jerárquica
 -> Lineal jerárquica
 
+## PATRONES DE DISEÑO
+-> Serie de situaciones que previamente
+haya sido resuelta con anterioridad.
+
+## ANTIPATRONES DE DISEÑO
+-> Malas prácticas
+
+## 
+
+
+
 
 
 
