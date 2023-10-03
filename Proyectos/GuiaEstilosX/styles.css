@@ -25,9 +25,19 @@
     background-color: antiquewhite;
 }
 
-.first-div, .second-div {
+.first-div{
+    flex: 1;
+
+} 
+
+.second-div {
     flex: 1;
   }
+
+.color{
+    display: flex;
+    justify-content: space-around;
+}
 
 .zonaNavegacion{
     /* FlexBox propiedad que ordena los elementos automáticamente 
