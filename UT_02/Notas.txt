@@ -1,0 +1,61 @@
+## Principio de diseño de Hansen y Licklider
+
+-> Minim de errores
+-> Minim de memorización
+-> Uso de icomos (minimizar palabras para instrucciones)
+
+
+## Antes de picar código
+
+-> Lluvia de ideas
+	Desarrolladores 
+	Equipo de trabajo
+
+-> Diseño
+	Diseñadores
+	Equipo desarrollo
+
+## User Experience
+La experiencia
+
+## User Interface
+La funcionalidad
+
+## UX (es el corazon)
+-> Percepción
+	Movimiento de la mirada
+	
+-> Memoría
+-> Emociones
+-> Mentalidad
+-> Motivación
+
+
+## Sketching
+
+## Wireframing
+
+## Prototipado
+
+## REUNIONES CON EL CLIENTE
+-> Establecer ideas principales
+-> Especificar exáctamente lo que el cliente quiere
+-> Planificación
+-> Establecer el mapa del sitio
+-> Desarollo
+-> Lanzamiento
+
+## ESTRUCTURAS DE UN SITIO WEB
+-> Lineal
+-> Reticular
+-> Jerárquica
+-> Lineal jerárquica
+
+
+
+
+
+
+
+
+

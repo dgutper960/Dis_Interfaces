@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.container{
+    height: 100vh; /* vh indica que es vertical*/
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    overflow: auto;
+}
+
+.divCabecera {
+    height: 100px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.divPrincipal{
+    display: grid;
+    /* Vamos a dividir este contenedor en 4 partes iguales*/
+    grid-template-columns: repeat(4, 1fr); 
+    /* fr= fraccion en el que está contenido */
+
+    height: 100%;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.first-div, .second-div {
+    flex: 1;
+  }
+
+.zonaNavegacion{
+    /* FlexBox propiedad que ordena los elementos automáticamente 
+    --> Accedemos a una guía en internet */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: goldenrod;
+}
+
+.zonaNavegacion div{ /* Solo atañe a los div de la zona de navegación*/
+    width: 1fr;
+    min-height: 50px;
+    height: auto;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-radius: 6px;
+
+    background-color: blueviolet;
+}
+
+.zonaNavegacion div:hover { /*SOlo se activa al pasar el raton por encima*/
+    background-color: darkmagenta;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit; /* Hereda el color de su padre */
+}
+
+.zonaContenido{
+    grid-column: 2 / 5; /* desde la línea 1 a la 5 (4 columnas y empiezan en 1)*/
+    margin: 5px;
+    padding-left: 5px;
+
+    border-radius: 6px;
+    border-left: 2px;
+    border-top: 2px;
+
+
+
+}
