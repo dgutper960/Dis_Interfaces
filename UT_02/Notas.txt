@@ -56,9 +56,32 @@ La funcionalidad
 haya sido resuelta con anterioridad.
 
 ## ANTIPATRONES DE DISEÑO
--> Malas prácticas
+-> Malas prácticas (wikipedia)
 
-## 
+## MINIMALISMO
+-> Menús
+-> Elementos de navecgación en el fat footer
+
+## ELEMENTOS DE DISEÑO:
+# CENTRARSE EN LA NECESIDAD DE LOS USUARIOS
+# MUESTRA DE LO QUE SE DEBE INTRODUCIR (placeolder)
+# MOSTRAR ERRORES CON VORDE EN ROJO Y ASTERISCO
+# INDICACIONES PARA EL USUARIO
+-> Si la información es correcta o adecuada
+-> Barras de seguridad para contraseñas
+
+## LEY DE HICK
+-> Dividir el proceso en varias etapas
+-> Mostrar el avance por las mismas
+
+## ESTUCTURA CORRECTA DEL CONTENIDO DE LA WEB
+-> División por columnas y filas
+-> Mejor posicionamiento
+-> Mejor adaptavilidad al responsive
+
+## ASOCIAR LAS REDES SOCIALES
+-> Permite la interactuación con RRSS
+
 
 
 

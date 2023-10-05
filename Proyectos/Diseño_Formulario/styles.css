@@ -1,0 +1,84 @@
+body{
+    background-color: antiquewhite;
+}
+
+.gridContainer{
+    height: 100%vh;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 20% 50% auto;
+
+    gap: 10px;
+    background-color: black;
+}
+
+#zonaLogo{
+    grid-column: 2 / 4; /* ocupa de la 2 ala 3*/ 
+    grid-row: 1;
+
+    background-color: antiquewhite;
+}
+
+#zonaTitulo{
+grid-column: 5, 10;
+grid-row: 1;
+
+background-color: bisque;
+
+}
+
+#inicio{
+    grid-column: 2, 4;
+    grid-row: 2;
+
+    background-color: orange;
+}
+
+#contacto{
+    grid-column: 10, 12;
+    grid-row: 2;
+
+    background-color: orange;
+}
+
+#servicios{
+    grid-column: 6, 8;
+    grid-row: 2;
+
+    background-color: orange;
+}
+
+#zonaContenido{
+    grid-column: 3/10;
+    grid-row: auto;
+
+    background-color: blueviolet;
+}
+
+#zonaNavegacion{
+    grid-column: 10, 12;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divFormulario{
+    margin-left: 15%;
+    height: 100%;
+
+    padding-top: 10%;
+
+    background-color: white;
+
+}
+
+.divFormulario div{
+    margin-bottom: 15%;
+
+}
+
+.divFormulario div input:hover{
+    box-shadow: 60px;
+
+}
