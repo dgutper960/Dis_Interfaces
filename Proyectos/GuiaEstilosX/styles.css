@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
 
 .container{
     height: 100vh; /* vh indica que es vertical*/
@@ -9,8 +10,14 @@
 }
 
 .divCabecera {
+    font-family: 'Dosis', sans-serif;
+    display: grid;
+    place-items: center;
+    text-align: center;
     height: 100px;
     margin: 10px;
+    justify-content: center;
+    align-items: center;
     background-color: aquamarine;
 }
 
@@ -40,6 +47,7 @@
 }
 
 .zonaNavegacion{
+    font-family: 'Dosis', sans-serif;
     /* FlexBox propiedad que ordena los elementos automáticamente 
     --> Accedemos a una guía en internet */
     display: flex;
@@ -49,6 +57,7 @@
 }
 
 .zonaNavegacion div{ /* Solo atañe a los div de la zona de navegación*/
+
     width: 1fr;
     min-height: 50px;
     height: auto;
@@ -72,6 +81,7 @@ a{
 }
 
 .zonaContenido{
+    font-family: 'Dosis', sans-serif;
     grid-column: 2 / 5; /* desde la línea 1 a la 5 (4 columnas y empiezan en 1)*/
     margin: 5px;
     padding-left: 5px;
@@ -79,7 +89,5 @@ a{
     border-radius: 6px;
     border-left: 2px;
     border-top: 2px;
-
-
-
 }
+
