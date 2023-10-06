@@ -91,3 +91,21 @@ a{
     border-top: 2px;
 }
 
+table{
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+}
+
+td{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.fuentes{
+    display: flex;
+    justify-content: space-around;
+}
+
