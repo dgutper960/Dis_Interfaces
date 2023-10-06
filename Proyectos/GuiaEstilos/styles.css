@@ -5,18 +5,20 @@
     height: 100vh; /* vh indica que es vertical*/
     margin: 10px;
     padding: 10px;
-    background-color: black;
+    background-color: #03336C;
     overflow: auto;
 }
 
 .divCabecera {
     font-family: 'Dosis', sans-serif;
+    display: grid;
+    place-items: center;
+    text-align: center;
     height: 100px;
     margin: 10px;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #4E6784;
 }
 
 .divPrincipal{
@@ -27,7 +29,7 @@
 
     height: 100%;
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: #f3e9d4;
 }
 
 .first-div{
@@ -51,7 +53,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: goldenrod;
+    background-color: #4E6784;
 }
 
 .zonaNavegacion div{ /* Solo atañe a los div de la zona de navegación*/
@@ -65,11 +67,11 @@
 
     border-radius: 6px;
 
-    background-color: blueviolet;
+    background-color: #CAA770;
 }
 
 .zonaNavegacion div:hover { /*SOlo se activa al pasar el raton por encima*/
-    background-color: darkmagenta;
+    background-color: #C9772A;
 
 }
 
@@ -88,3 +90,22 @@ a{
     border-left: 2px;
     border-top: 2px;
 }
+
+table{
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #C9772A;
+}
+
+td{
+    text-align: center;
+    background-color: #e2c494;
+}
+
+.fuentes{
+    display: flex;
+    justify-content: space-around;
+}
+

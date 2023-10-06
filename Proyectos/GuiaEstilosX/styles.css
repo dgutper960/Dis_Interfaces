@@ -5,7 +5,7 @@
     height: 100vh; /* vh indica que es vertical*/
     margin: 10px;
     padding: 10px;
-    background-color: black;
+    background-color: #03336C;
     overflow: auto;
 }
 
@@ -18,7 +18,7 @@
     margin: 10px;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #4E6784;
 }
 
 .divPrincipal{
@@ -29,7 +29,7 @@
 
     height: 100%;
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: #f3e9d4;
 }
 
 .first-div{
@@ -53,7 +53,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: goldenrod;
+    background-color: #4E6784;
 }
 
 .zonaNavegacion div{ /* Solo atañe a los div de la zona de navegación*/
@@ -67,11 +67,11 @@
 
     border-radius: 6px;
 
-    background-color: blueviolet;
+    background-color: #CAA770;
 }
 
 .zonaNavegacion div:hover { /*SOlo se activa al pasar el raton por encima*/
-    background-color: darkmagenta;
+    background-color: #C9772A;
 
 }
 
@@ -96,12 +96,12 @@ table{
     width: 100%;
     border: 1px solid black;
     border-collapse: collapse;
-    background-color: aqua;
+    background-color: #C9772A;
 }
 
 td{
     text-align: center;
-    background-color: cadetblue;
+    background-color: #e2c494;
 }
 
 .fuentes{
