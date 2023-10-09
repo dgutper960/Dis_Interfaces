@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
+body{
+    font-family: 'Dosis', sans-serif;
+}
 
 .container{
     height: 100vh; /* vh indica que es vertical*/
@@ -10,7 +13,7 @@
 }
 
 .divCabecera {
-    font-family: 'Dosis', sans-serif;
+    border-radius: 15px;
     display: grid;
     place-items: center;
     text-align: center;
@@ -19,6 +22,8 @@
     justify-content: center;
     align-items: center;
     background-color: #4E6784;
+    border-color: #C9772A;
+    background-image: url("images/trasLuzLong2.png");
 }
 
 .divPrincipal{
@@ -47,7 +52,6 @@
 }
 
 .zonaNavegacion{
-    font-family: 'Dosis', sans-serif;
     /* FlexBox propiedad que ordena los elementos automáticamente 
     --> Accedemos a una guía en internet */
     display: flex;
@@ -81,7 +85,7 @@ a{
 }
 
 .zonaContenido{
-    font-family: 'Dosis', sans-serif;
+    border-radius: 5px 30px 45px 60px;
     grid-column: 2 / 5; /* desde la línea 1 a la 5 (4 columnas y empiezan en 1)*/
     margin: 5px;
     padding-left: 5px;
