@@ -1,0 +1,19 @@
+## GUÍAS DE ESTILO
+
+
+## PATRONES DE DISEÑO
+
+
+## SISTEMA DE GRID
+-> Permite distribuir los elementos en la página.
+-> Permite que los nuevos elementos no excedan la zona.
+-> El sistema más sencillo es el de 12 columnas.
+-> Se consigue el Diseño Responsive más ficilmente
+-> Movile Firts (1º pantallas pequeñas -> 2º desktop)
+
+-> enlaces Moodle al respecto
+
+# Media queries
+-> Consiques reglas para diseño responsive
+
+## Creamos cuenta de Figma
