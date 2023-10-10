@@ -15,10 +15,10 @@ body{
 }
 
 .divCabecera {
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Gabarito', sans-serif;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Rubik Mono One', monospace;
+font-family: 'Dosis', sans-serif;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Rubik Mono One', monospace;
     border-radius: 15px;
     display: grid;
     place-items: center;
