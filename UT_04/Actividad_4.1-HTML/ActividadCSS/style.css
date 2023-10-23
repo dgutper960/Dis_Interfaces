@@ -1,7 +1,44 @@
-h1{
+
+
+
+table{
+    border-collapse: collapse;
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.table__row--first-row{
+    border-bottom: 2px solid black;
+}
+
+.row__th--right{
+    border-right: 2px solid black;
+}
+
+.row__td--right-bottom{
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.row__td--bottom{
+    border-bottom: 1px solid gray;
+}
+
+.row__td--right{
+    border-right: 1px solid gray;
+}
+
+
+/*
+damos color a los títulos
+*/
+
+h2{
     color: blue;
 }
 
-table {
-    content: center;
+.footer__p--pagina{
+    color: red;
 }
