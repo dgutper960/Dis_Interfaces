@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tehiría HTML-1</title>
+    <!-- importamos css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- icono de la pestaña navegador -->
+  </head>
+  <body>
+    <header>
+      <h1>Teoría HTML</h1>
+
+      <p>Esta es mi primera página chusquera, pero nopazaná</p>
+    </header>
+    <section>
+      <!-- Cramos una tabla -->
+      <table border="1px">
+        <caption>
+          Título de mi tabla
+        </caption>
+        <tr>
+          <!--(fila, columna)-->
+          <th></th>
+          <!-- para corregir el descuadre-->
+          <th colspan="2">col span</th>
+
+          <th>col2</th>
+        </tr>
+        <tr>
+          <!--(fila, columna)-->
+          <th rowspan="3">row0</th>
+          <td>0,0</td>
+          <td>0,1</td>
+          <td>0,3</td>
+        </tr>
+        <tr>
+          <td>1,1</td>
+          <td>1,2</td>
+          <td>1,3</td>
+        </tr>
+        <tr>
+          <td>2,1</td>
+          <td>2,2</td>
+          <td>2,3</td>
+        </tr>
+      </table>
+    </section>
+    <footer></footer>
+
+    <!-- Se puede crear cualquier cosa con esta sintaxis -->
+    <!-- etiqueta > (hijo)
+etiqueta1 + etiqueta2 ->  hermanos = En el mismo nivel
+etiqueta{contenido}
+etiqueta * n -> numero de ocurrencias -->
+    <!-- ejemplo -->
+    <!-- section>table>caption{Titulo de mi tabla}+(tr>th*4)+(tr+th+td*3)*3 -->
+  </body>
+</html>
