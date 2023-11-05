@@ -1,0 +1,180 @@
+/* Importamos tipografias*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Roboto&display=swap');
+@font-face {
+	font-family: "ZombieHolocaust";
+	src: url("Fonts/Zombie_Holocaust.ttf") format("truetype");
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    /* quitamos el mergen por defecto */
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Roboto', sans-serif; 
+}
+
+p, span, div {
+    font-family: 'Noto serif JP', serif;
+}
+
+#tituloPagina{
+    font-family: 'ZombieHolocaust', sans-serif;
+}
+
+.header{
+    height: 90px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__zonaTitulo{
+    height: 100%;
+    width: 20%;
+    background-color: #FFFFFF;
+
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px; /* establecemos el aire entre elementos */
+
+    border-radius: 20px;
+
+    transition: background-color 0.2s linear;
+}
+
+#zonaTitulo__logo img {
+    width: 60px;
+    height: auto;
+}
+
+.header__zonaNavegacion{
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* establecemos el aire entre elementos */
+
+
+}
+
+.zonaNavegacion__div{
+    padding: 5px;
+    transition: 0.2s ease-out;
+}
+
+.header__zonaTitulo:hover{
+    background-color: #009900;
+    transform: scale(1.05);
+
+    font-size: 1.2em; /* em toma como referencia el font size por defecto */
+}
+
+.header__zonaNavegacion a{
+    text-decoration: none; /*quita el underline*/
+    color: #330033;
+}
+
+.zonaNavegacion__div:hover {
+
+    border-bottom: 3px solid #009900;
+    border-radius: 5px;
+
+}
+
+.zonaNavegacion__div h3{ /* los h tienen un margen por defecto */
+    margin: 0;
+}
+
+.zonaMain{
+    /* separacion del header */
+    margin-top: 10px;
+
+    /* hacemos el display grid*/
+    display: grid;
+    /* especificamos columnas*/
+    grid-template-columns: repeat(12, 1fr); /* fr: unidad de medida como referencia viewport */
+    /* aplicamos aire */
+
+    /* estaablecemos un tamaño a la row */
+    grid-auto-rows: minmax(200px, auto); /*minmax establece el tamaño minimo y máximo */
+
+
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.main__zonaImagen {
+    /* establecemos las columnas que ocupa esta zona */
+    grid-column: 2/6;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main__zonaImagen image{
+
+    width: 100%; /* aplica al 100% del contenedor */
+    max-height: 300px;
+
+    box-sizing: border-box;
+    border: 6px solid black; 
+    border-radius: 10px;
+
+    transition: 0.1s ease-out;
+
+}
+
+.main__zonaImagen image:hover{
+
+    border: 1px solid black;
+    transform: scale(1.03);
+
+}
+
+.main__zonaDescripcion {
+    padding: 10px;
+
+    /* establecemos las columnas que ocupa esta zona */
+    grid-column: 6/12;
+
+    border-left: 6px solid #330033;
+    border-radius: 10px;
+}
+
+.zonaDescripcion__actores-nota{
+    display: grid;
+    grid-template-columns: 60%, 40%;
+}
+
+.actores-nota__actores{
+    grid-column: 1;
+}
+
+.actores-nota__nota{
+    grid-column: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nota__puntuacion{
+    font-family: 'ZombieHolocaust', sans-serif;
+    font-size: 3em;
+    color: #009900;
+}

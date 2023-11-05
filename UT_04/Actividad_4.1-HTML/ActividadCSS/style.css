@@ -42,3 +42,15 @@ h2{
 .footer__p--pagina{
     color: red;
 }
+
+.pokemon{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row__tr--first-row{
+    background-color: red;
+}
+
+.table__th--first-th{
+    width: 20px;
+}

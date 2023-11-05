@@ -1,0 +1,21 @@
+header{
+    height: 200px;
+    background-color: burlywood;
+}
+
+
+.Caja1{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
+
+.Caja2{
+    position: absolute;
+    top: 9px;
+    right: 0%;
+    width: 50px;
+    height: 200px;
+    background-color: red;
+
+}
