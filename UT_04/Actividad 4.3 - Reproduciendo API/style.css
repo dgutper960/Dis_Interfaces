@@ -41,10 +41,10 @@ a {
 }
 
 
-.home, .about, .api, .beta:hover{
+.home:hover, .about:hover, .api:hover, .beta:hover{
     color: #FFFFFF;
     padding: 25px;
-    margin-bottom: 5px solid #FFFFFF;
+    text-decoration: underline 2px #FFFFFF;
 }
 
 
