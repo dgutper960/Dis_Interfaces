@@ -30,7 +30,11 @@ a {
 }
 
 .header__span--zona-nav{
-    padding-right: 20px;
+    margin: 20px;
+}
+
+.home .about .graf .beta :hover{
+    border-bottom: solid cornsilk 10px;
 }
 
 
@@ -45,16 +49,24 @@ a {
 
 .body__div--zona-nav{
 
+    /* añadimos propiedad sticky */
+    height: 200px;
     position: sticky;
     top: 0;
 
 
-    width: 35%;
+    width: 50%;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
+
+.body__div--zona-content{
+
+    padding: 20px;
+}
+
 
 #home #about #graf #beta{
 margin-left: 20%;
