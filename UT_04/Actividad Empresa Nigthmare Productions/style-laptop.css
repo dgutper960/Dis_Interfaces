@@ -1,0 +1,28 @@
+
+
+@media all and (max-width: 920px){
+
+    .main__zonaImagen {
+        /* establecemos las columnas que ocupa esta zona */
+        grid-column: 2/12;
+    
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .main__zonaDescripcion {
+        padding: 10px;
+    
+        /* establecemos las columnas que ocupa esta zona */
+        grid-column: 2/12;
+    
+        border-left: 6px solid #330033;
+        border-radius: 10px;
+    }
+
+
+
+}

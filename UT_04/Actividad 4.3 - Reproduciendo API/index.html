@@ -8,49 +8,57 @@
   </head>
 
   <body>
-
-    <header>
-      <span class="header__span--zona-logo">
+    <header class="header">
+      <div class="header__span--zona-logo">
         <img
           class="logo"
           height="45px"
           src="images/pokeapi_f12.png"
           alt="logo"
         />
-      </span>
+      </div>
 
-      <span class="header__span--zona-nav">
+      <div class="header__span--zona-nav">
         <nav>
           <a class="home" href="#">Home</a>
           <a class="about" href="#">About</a>
           <a class="api" href="#">API v2</a>
           <a class="beta" href="#">GraphQL v1beta</a>
         </nav>
-      </span>
+      </div>
     </header>
 
-
-    <body>
-
+    <main>
       <div class="container">
-
         <div class="body__div--zona-nav">
           <nav>
             <h3>Contents</h3>
-            <br>
+            <br />
             <a href="#info">Information</a>
-            <br>
+            <br />
             <a href="#fair">Fair Use Policy</a>
-            <br>
+            <br />
             <a href="#slack">Slack</a>
-            <br>
+            <br />
             <a href="#wrapper">Wrapper Libreries</a>
-
-                        <a href="#wrapper">Wrapper Libreries</a>
+            <br />
+            <hr />
+            <a href="#resource">Resource Lists/Pagination</a>
+            <hr />
           </nav>
         </div>
 
         <div class="body__div--zona-content">
+          <p>
+            If you were using v1 of this API, please switch to v2 (this page).
+            <a href="/docs/v1">Read more…</a>
+          </p>
+          <p>
+            <strong>Quick tip:</strong> Use your browser's "find on page"
+            feature to search for specific resource types (<kbd>Ctrl+F</kbd> or
+            <kbd>Cmd+F</kbd>).
+          </p>
+
           <h1 id="info">Information</h1>
 
           <p>
@@ -104,121 +112,444 @@
 
           <ul>
             <li>
-              Node Server-side with auto caching: Pokedex Promise v2 by Thomas
-              Asadurian and Alessandro Pezzé
+              <strong>Node Server-side with auto caching</strong>:
+              <a
+                href="https://github.com/PokeAPI/pokedex-promise-v2"
+                rel="nofollow"
+                >Pokedex Promise v2</a
+              >
+              by Thomas Asadurian and Alessandro Pezzé
             </li>
             <li>
-              Browser-side with auto caching: pokeapi-js-wrapper by Alessandro
-              Pezzé
+              <strong>Browser-side with auto caching</strong>:
+              <a
+                href="https://github.com/PokeAPI/pokeapi-js-wrapper"
+                rel="nofollow"
+                >pokeapi-js-wrapper</a
+              >
+              by Alessandro Pezzé
             </li>
-            <li>Python 3 with auto caching: PokeBase by Greg Hilmes</li>
-            <li>Python 2/3 with auto caching: Pokepy by Paul Hallett</li>
-            <li>Kotlin (and Java): PokeKotlin by sargunster</li>
             <li>
-              Java (Spring Boot) with auto caching: pokeapi-reactor by Benjamin
-              Churchill
+              <strong>Python 3 with auto caching</strong>:
+              <a href="https://github.com/GregHilmes/pokebase" rel="nofollow"
+                >PokeBase</a
+              >
+              by Greg Hilmes
             </li>
-            <li>.NET (C#, VB, etc): PokeApi.NET by PoroCYon</li>
-            <li>.NET Standard: PokeApiNet by mtrdp642</li>
-            <li>Swift: PokemonAPI by kinkofer</li>
-            <li>PHP: PokePHP by Dan Rovito</li>
-            <li>PHP: PHPokéAPI by lmerotta</li>
-            <li>Ruby: Poke-Api-V2 by rdavid1099</li>
-            <li>Go: pokeapi-go by mtslzr</li>
-            <li>Crystal: pokeapi by henrikac</li>
-            <li>Typescript with auto caching: Pokenode-ts by Gabb-c</li>
-            <li>Rust with auto caching: Rustemon by mlemesle</li>
             <li>
-              Asynchronous Python wrapper with auto caching: aiopokeapi by
-              beastmatser
+              <strong>Python 2/3 with auto caching</strong>:
+              <a href="https://github.com/PokeAPI/pokepy" rel="nofollow"
+                >Pokepy</a
+              >
+              by Paul Hallett
             </li>
-            <li>Scala 3 with auto caching: pokeapi-scala by Juliano Alves</li>
             <li>
-              Elixir wrapper with auto caching: Max-Elixir-PokeAPI by Henrique
-              Artur
+              <strong>Kotlin (and Java)</strong>:
+              <a href="https://github.com/PokeAPI/pokekotlin" rel="nofollow"
+                >PokeKotlin</a
+              >
+              by sargunster
+            </li>
+            <li>
+              <strong>Java (Spring Boot) with auto caching</strong>:
+              <a
+                href="https://github.com/SirSkaro/pokeapi-reactor"
+                rel="nofollow"
+                >pokeapi-reactor</a
+              >
+              by Benjamin Churchill
+            </li>
+            <li>
+              <strong>.NET (C#, VB, etc)</strong>:
+              <a href="https://gitlab.com/PoroCYon/PokeApi.NET" rel="nofollow"
+                >PokeApi.NET</a
+              >
+              by PoroCYon
+            </li>
+            <li>
+              <strong>.NET Standard</strong>:
+              <a href="https://github.com/mtrdp642/PokeApiNet" rel="nofollow"
+                >PokeApiNet</a
+              >
+              by mtrdp642
+            </li>
+            <li>
+              <strong>Swift</strong>:
+              <a href="https://github.com/kinkofer/PokemonAPI" rel="nofollow"
+                >PokemonAPI</a
+              >
+              by kinkofer
+            </li>
+            <li>
+              <strong>PHP</strong>:
+              <a href="https://github.com/danrovito/pokephp" rel="nofollow"
+                >PokePHP</a
+              >
+              by Dan Rovito
+            </li>
+            <li>
+              <strong>PHP</strong>:
+              <a href="https://github.com/lmerotta/phpokeapi" rel="nofollow"
+                >PHPokéAPI</a
+              >
+              by lmerotta
+            </li>
+            <li>
+              <strong>Ruby</strong>:
+              <a href="https://github.com/rdavid1099/poke-api-v2" rel="nofollow"
+                >Poke-Api-V2</a
+              >
+              by rdavid1099
+            </li>
+            <li>
+              <strong>Go</strong>:
+              <a href="https://github.com/mtslzr/pokeapi-go" rel="nofollow"
+                >pokeapi-go</a
+              >
+              by mtslzr
+            </li>
+            <li>
+              <strong>Crystal</strong>:
+              <a href="https://github.com/henrikac/pokeapi" rel="nofollow"
+                >pokeapi</a
+              >
+              by henrikac
+            </li>
+            <li>
+              <strong>Typescript with auto caching</strong>:
+              <a href="https://github.com/Gabb-c/pokenode-ts" rel="nofollow"
+                >Pokenode-ts</a
+              >
+              by Gabb-c
+            </li>
+            <li>
+              <strong>Rust with auto caching</strong>:
+              <a href="https://crates.io/crates/rustemon" rel="nofollow"
+                >Rustemon</a
+              >
+              by mlemesle
+            </li>
+            <li>
+              <strong>Asynchronous Python wrapper with auto caching</strong>:
+              <a href="https://github.com/beastmatser/aiopokeapi" rel="nofollow"
+                >aiopokeapi</a
+              >
+              by beastmatser
+            </li>
+            <li>
+              <strong>Scala 3 with auto caching</strong>:
+              <a href="https://github.com/juliano/pokeapi-scala" rel="nofollow"
+                >pokeapi-scala</a
+              >
+              by Juliano Alves
+            </li>
+            <li>
+              <strong>Elixir wrapper with auto caching</strong>:
+              <a
+                href="https://github.com/HenriqueArtur/Max-Elixir-PokeAPI"
+                rel="nofollow"
+                >Max-Elixir-PokeAPI</a
+              >
+              by Henrique Artur
             </li>
           </ul>
 
-          <ul>
-            <li>
-              Node Server-side with auto caching: Pokedex Promise v2 by Thomas
-              Asadurian and Alessandro Pezzé
-            </li>
-            <li>
-              Browser-side with auto caching: pokeapi-js-wrapper by Alessandro
-              Pezzé
-            </li>
-            <li>Python 3 with auto caching: PokeBase by Greg Hilmes</li>
-            <li>Python 2/3 with auto caching: Pokepy by Paul Hallett</li>
-            <li>Kotlin (and Java): PokeKotlin by sargunster</li>
-            <li>
-              Java (Spring Boot) with auto caching: pokeapi-reactor by Benjamin
-              Churchill
-            </li>
-            <li>.NET (C#, VB, etc): PokeApi.NET by PoroCYon</li>
-            <li>.NET Standard: PokeApiNet by mtrdp642</li>
-            <li>Swift: PokemonAPI by kinkofer</li>
-            <li>PHP: PokePHP by Dan Rovito</li>
-            <li>PHP: PHPokéAPI by lmerotta</li>
-            <li>Ruby: Poke-Api-V2 by rdavid1099</li>
-            <li>Go: pokeapi-go by mtslzr</li>
-            <li>Crystal: pokeapi by henrikac</li>
-            <li>Typescript with auto caching: Pokenode-ts by Gabb-c</li>
-            <li>Rust with auto caching: Rustemon by mlemesle</li>
-            <li>
-              Asynchronous Python wrapper with auto caching: aiopokeapi by
-              beastmatser
-            </li>
-            <li>Scala 3 with auto caching: pokeapi-scala by Juliano Alves</li>
-            <li>
-              Elixir wrapper with auto caching: Max-Elixir-PokeAPI by Henrique
-              Artur
-            </li>
-          </ul>
+          <h1 id="resource">Resource Lists/Pagination</h1>
 
-          <ul>
-            <li>
-              Node Server-side with auto caching: Pokedex Promise v2 by Thomas
-              Asadurian and Alessandro Pezzé
-            </li>
-            <li>
-              Browser-side with auto caching: pokeapi-js-wrapper by Alessandro
-              Pezzé
-            </li>
-            <li>Python 3 with auto caching: PokeBase by Greg Hilmes</li>
-            <li>Python 2/3 with auto caching: Pokepy by Paul Hallett</li>
-            <li>Kotlin (and Java): PokeKotlin by sargunster</li>
-            <li>
-              Java (Spring Boot) with auto caching: pokeapi-reactor by Benjamin
-              Churchill
-            </li>
-            <li>.NET (C#, VB, etc): PokeApi.NET by PoroCYon</li>
-            <li>.NET Standard: PokeApiNet by mtrdp642</li>
-            <li>Swift: PokemonAPI by kinkofer</li>
-            <li>PHP: PokePHP by Dan Rovito</li>
-            <li>PHP: PHPokéAPI by lmerotta</li>
-            <li>Ruby: Poke-Api-V2 by rdavid1099</li>
-            <li>Go: pokeapi-go by mtslzr</li>
-            <li>Crystal: pokeapi by henrikac</li>
-            <li>Typescript with auto caching: Pokenode-ts by Gabb-c</li>
-            <li>Rust with auto caching: Rustemon by mlemesle</li>
-            <li>
-              Asynchronous Python wrapper with auto caching: aiopokeapi by
-              beastmatser
-            </li>
-            <li>Scala 3 with auto caching: pokeapi-scala by Juliano Alves</li>
-            <li>
-              Elixir wrapper with auto caching: Max-Elixir-PokeAPI by Henrique
-              Artur
-            </li>
-          </ul>
+          <div>
+            <p>
+              Calling any API endpoint without a resource ID or name will return
+              a paginated list of available resources for that API. By default,
+              a list "page" will contain up to 20 resources. If you would like
+              to change this just add a 'limit' query parameter to the GET
+              request, e.g. <code>?limit=60</code>. You can use 'offset' to move
+              to the next page, e.g. <code>?limit=60&amp;offset=60</code>.
+            </p>
 
+            <h3 class="v2-module__section_name--27nve" id="named">
+              Named
+              <span class="v2-module__section_type--3-rzy">(endpoint)</span>
+            </h3>
 
+            <div></div>
 
+            <p class="v2-module__resource_url--lxU3z">
+              <span class="v2-module__resource_url_method--1fPip">GET</span>
+              https://pokeapi.co/api/v2/{endpoint}/
+            </p>
 
-
+            <div class="JsonViewer-module__jsonviewer--vatbb">
+              <div class="JsonViewer-module__json--2OTYy">
+                <ul
+                  style="
+                    border: 0px;
+                    padding: 0px;
+                    margin: 0.5em 0px 0.5em 0.125em;
+                    list-style: none;
+                    user-select: none;
+                    background-color: rgb(255, 255, 255);
+                  "
+                >
+                  <li style="padding: 0px; margin: 0px">
+                    <ul style="padding: 0px; margin: 0px; list-style: none">
+                      <li
+                        style="
+                          padding-top: 0.25em;
+                          padding-right: 0px;
+                          margin-left: 0.875em;
+                          user-select: text;
+                          overflow-wrap: break-word;
+                          padding-left: 1.25em;
+                          text-indent: -0.5em;
+                          word-break: break-all;
+                        "
+                      >
+                        <label
+                          style="
+                            display: inline-block;
+                            color: rgb(77, 76, 77);
+                            margin: 0px 0.5em 0px 0px;
+                          "
+                          ><span>count:</span></label
+                        ><span style="color: rgb(176, 101, 49)">248</span>
+                      </li>
+                      <li
+                        style="
+                          padding-top: 0.25em;
+                          padding-right: 0px;
+                          margin-left: 0.875em;
+                          user-select: text;
+                          overflow-wrap: break-word;
+                          padding-left: 1.25em;
+                          text-indent: -0.5em;
+                          word-break: break-all;
+                        "
+                      >
+                        <label
+                          style="
+                            display: inline-block;
+                            color: rgb(77, 76, 77);
+                            margin: 0px 0.5em 0px 0px;
+                          "
+                          ><span>next:</span></label
+                        ><span style="color: rgb(108, 116, 31)"
+                          >"https://pokeapi.co/api/v2/ability/?limit=20&amp;offset=20"</span
+                        >
+                      </li>
+                      <li
+                        style="
+                          padding-top: 0.25em;
+                          padding-right: 0px;
+                          margin-left: 0.875em;
+                          user-select: text;
+                          overflow-wrap: break-word;
+                          padding-left: 1.25em;
+                          text-indent: -0.5em;
+                          word-break: break-all;
+                        "
+                      >
+                        <label
+                          style="
+                            display: inline-block;
+                            color: rgb(77, 76, 77);
+                            margin: 0px 0.5em 0px 0px;
+                          "
+                          ><span>previous:</span></label
+                        ><span style="color: rgb(220, 118, 118)">null</span>
+                      </li>
+                      <li
+                        style="
+                          position: relative;
+                          padding-top: 0.25em;
+                          margin-left: 0px;
+                          padding-left: 0px;
+                        "
+                      >
+                        <div
+                          style="
+                            display: inline-block;
+                            padding-right: 0.5em;
+                            padding-left: 0px;
+                            cursor: pointer;
+                          "
+                        >
+                          <div
+                            style="
+                              margin-left: 0px;
+                              transition: all 150ms ease 0s;
+                              transform: rotateZ(90deg);
+                              transform-origin: 45% 50%;
+                              position: relative;
+                              line-height: 1.1em;
+                              font-size: 0.75em;
+                              color: rgb(77, 76, 77);
+                            "
+                          >
+                            ▶
+                          </div>
+                        </div>
+                        <label
+                          style="
+                            display: inline-block;
+                            color: rgb(77, 76, 77);
+                            margin: 0px;
+                            padding: 0px;
+                            user-select: inherit;
+                            cursor: pointer;
+                          "
+                          ><span>results:</span></label
+                        ><span
+                          style="
+                            padding-left: 0.5em;
+                            cursor: default;
+                            color: rgb(128, 130, 128);
+                          "
+                          ><span
+                            ><span
+                              style="margin-left: 0.3em; margin-right: 0.3em"
+                              >[]</span
+                            >
+                            1 item</span
+                          ></span
+                        >
+                        <ul
+                          style="
+                            padding: 0px;
+                            margin: 0px;
+                            list-style: none;
+                            display: block;
+                          "
+                        >
+                          <li
+                            style="
+                              position: relative;
+                              padding-top: 0.25em;
+                              margin-left: 0.875em;
+                              padding-left: 0px;
+                            "
+                          >
+                            <div
+                              style="
+                                display: inline-block;
+                                padding-right: 0.5em;
+                                padding-left: 0px;
+                                cursor: pointer;
+                              "
+                            >
+                              <div
+                                style="
+                                  margin-left: 0px;
+                                  transition: all 150ms ease 0s;
+                                  transform: rotateZ(90deg);
+                                  transform-origin: 45% 50%;
+                                  position: relative;
+                                  line-height: 1.1em;
+                                  font-size: 0.75em;
+                                  color: rgb(77, 76, 77);
+                                "
+                              >
+                                ▶
+                              </div>
+                            </div>
+                            <label
+                              style="
+                                display: inline-block;
+                                color: rgb(77, 76, 77);
+                                margin: 0px;
+                                padding: 0px;
+                                user-select: inherit;
+                                cursor: pointer;
+                              "
+                              ><span>0:</span></label
+                            ><span
+                              style="
+                                padding-left: 0.5em;
+                                cursor: default;
+                                color: rgb(128, 130, 128);
+                              "
+                              ><span
+                                ><span
+                                  style="
+                                    margin-left: 0.3em;
+                                    margin-right: 0.3em;
+                                  "
+                                  >{}</span
+                                >
+                                2 keys</span
+                              ></span
+                            >
+                            <ul
+                              style="
+                                padding: 0px;
+                                margin: 0px;
+                                list-style: none;
+                                display: block;
+                              "
+                            >
+                              <li
+                                style="
+                                  padding-top: 0.25em;
+                                  padding-right: 0px;
+                                  margin-left: 0.875em;
+                                  user-select: text;
+                                  overflow-wrap: break-word;
+                                  padding-left: 2.125em;
+                                  text-indent: -0.5em;
+                                  word-break: break-all;
+                                "
+                              >
+                                <label
+                                  style="
+                                    display: inline-block;
+                                    color: rgb(77, 76, 77);
+                                    margin: 0px 0.5em 0px 0px;
+                                  "
+                                  ><span>name:</span></label
+                                ><span style="color: rgb(108, 116, 31)"
+                                  >"stench"</span
+                                >
+                              </li>
+                              <li
+                                style="
+                                  padding-top: 0.25em;
+                                  padding-right: 0px;
+                                  margin-left: 0.875em;
+                                  user-select: text;
+                                  overflow-wrap: break-word;
+                                  padding-left: 2.125em;
+                                  text-indent: -0.5em;
+                                  word-break: break-all;
+                                "
+                              >
+                                <label
+                                  style="
+                                    display: inline-block;
+                                    color: rgb(77, 76, 77);
+                                    margin: 0px 0.5em 0px 0px;
+                                  "
+                                  ><span>url:</span></label
+                                ><span style="color: rgb(108, 116, 31)"
+                                  >"https://pokeapi.co/api/v2/ability/1/"</span
+                                >
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="JsonViewer-module__toolbar--1qg2d">
+                <label
+                  ><input type="checkbox" checked="" /> View raw JSON (0.213 kB,
+                  11 lines)</label
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </body>
+    </main>
   </body>
 </html>

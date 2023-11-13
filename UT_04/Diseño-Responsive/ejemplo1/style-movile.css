@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+/* En pantallas más pequeñas de este tamaño se spbreescribe la propiedad */
+@media all and (max-width: 360px){
+    .container{
+
+        background-color: pink;
+    
+    }
+}

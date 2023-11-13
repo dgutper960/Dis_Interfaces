@@ -1,0 +1,36 @@
+@import url(style-desktop.css);
+@import url(style-movile.css);
+@import url(style-laptop.css);
+/** 
+-> Importamos los otros estilos y 
+-> Mantenemos el enlace de este con el html 
+*/
+
+body{
+    margin: 0;
+}
+
+.container{
+
+
+    height: 100vh;
+    background-color: black;
+
+}
+/* En pantallas más pequeñas de este tamaño se spbreescribe la propiedad */
+@media all and (max-width: 360px){
+    .container{
+
+        background-color: pink;
+    
+    }
+}
+
+/* Sobreescribe entre los dos tamaños indicados */
+@media all and (min-width: 360px) and (max-width: 920px){
+    .container{
+
+        background-color: blue;
+    
+    }
+}

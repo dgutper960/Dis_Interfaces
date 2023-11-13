@@ -1,21 +1,20 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Inclusive+Sans:ital@0;1&family=Lato&family=Montserrat:ital,wght@0,100;1,100&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap');
 
 *{
     font-family: 'Lato', sans-serif;
+    font-size: small;
 }
 
 body{
     margin: 0%;
-    background-color: #F1F1F1;
+    background-color: #a81818;
+
 }
 
-header{
+.header{
 
-
-    position: sticky;
-    top: 0;
-
-    background-color: rgb(231, 98, 93);
+    background-color: #EF5350;
     height: 50px;
     width: 100%;
 
@@ -23,50 +22,51 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
 a {
     text-decoration: none;
   }
 
-.header__span--zona-logo img{
+/* .header__span--zona-logo img{
     margin-left: 20px;
     padding-left: 55px;
-}
+} */
 
 .home, .about, .api, .beta{
+    padding: 15px;
     color: #FFFFFF;
-    padding: 25px;
+
 }
 
 
 .home:hover, .about:hover, .api:hover, .beta:hover{
     color: #FFFFFF;
-    padding: 25px;
-    text-decoration: underline 2px #FFFFFF;
+    text-decoration: underline 1px #FFFFFF;
 }
 
 
 .container{
 
-    background-color: #FFFFFF;
-    margin-left: 20%;
-    margin-right: 20%;
-    display: flex;
-    justify-content: space-around;
+    background-color: #F1F1F1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .body__div--zona-nav{
 
+    padding-left: 15px;
+
+    background-color: #FFFFFF;
+    grid-column: 2/3;
+    /* debemos indicar el tamaño 
+    el alto debe corresponder al calculo del viwport */
+    width: 100%;
+    height: calc(100vh);
     /* añadimos propiedad sticky */
-    height: 200px;
     position: sticky;
-    top: 50px;
+    top: 0;
 
-
-    width: 55%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -74,17 +74,54 @@ a {
 
 .body__div--zona-content{
 
-    padding: 20px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    grid-column: 3/6;
+}
+
+.body__div--zona-content kbd{
+
+    display: inline-block;
+    margin: 0 .1em;
+    padding: .1em .6em;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #242729;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #e4e6e8;
+    border: 1px solid #9fa6ad;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(12,13,14,.14901960784313725),inset 0 1px 0 0 #fff;
+    white-space: nowrap;
+    vertical-align: bottom
+
 }
 
 
-#home #about #graf #beta{
-margin-left: 20%;
+.v2-module__resource_url--lxU3z{
+
+    font-size: 1em;
+    margin: .25em 0;
+    font-family: Monaco,Menlo,Consolas,Courier New,monospace
+
 }
 
-#about{
-    background-color: red;
-    padding-top: 21px;
-    padding-bottom: 15px;
+.v2-module__resource_url_method--1fPip{
+
+    text-transform: uppercase;
+    background-color: rgba(0,116,236,.9294117647058824);
+    color: #fff;
+    border-radius: 3px;
+    padding: 4px 8px
+
 }
+
+
+
+
+/* #home #about #graf #beta{
+margin-left: 10%;
+} */
+
   

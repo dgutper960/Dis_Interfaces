@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+}
+
+
+.header{
+
+    height: 100px;
+    width: 100%;
+
+    background-color: pink;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__zonaTitulo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    padding-left: 20px;
+}
+
+
+
+.header__zonaNav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.header__zonaTitulo img{
+
+    width: 50px;
+}
+
+.header__zonaNav a{
+
+    padding: 10px;
+    height: 100%;
+    background-color: lightcoral;
+
+}
+
+.main{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+.main__zonaImagen img{
+
+    grid-column: 1/8;
+
+
+    margin: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    width: calc(100%*7);
+    grid-column: 1/8;
+
+}
+
+.main__zonaArticle{
+
+    grid-column: 1/8;
+
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__zonaNav{
+
+    grid-column: 9/12;
+
+    
+    margin: 15px;
+
+}
+
+
+.footer{
+
+    height: 50px;
+    width: 100%;
+
+    background-color: black;
+    color: white;
+}
+

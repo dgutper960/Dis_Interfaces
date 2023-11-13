@@ -4,6 +4,7 @@
 	font-family: "ZombieHolocaust";
 	src: url("Fonts/Zombie_Holocaust.ttf") format("truetype");
 }
+@import url(style-laptop.css);
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -178,3 +179,74 @@ p, span, div {
     font-size: 3em;
     color: #009900;
 }
+
+@media all and (max-width: 920px){
+
+    .main__zonaImagen {
+        /* establecemos las columnas que ocupa esta zona */
+        grid-column: 2/12;
+    
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .main__zonaDescripcion {
+        padding: 10px;
+    
+        /* establecemos las columnas que ocupa esta zona */
+        grid-column: 2/12;
+    
+        border-left: 6px solid #330033;
+        border-radius: 10px;
+    }
+
+    .header{
+        height: 90px;
+    }
+    
+    .header__zonaTitulo{
+        height: 100%;
+        width: 20%;
+        background-color: #FFFFFF;
+
+    }
+
+    .zonaMain{
+        /* separacion del header */
+        margin-top: 10px;
+    
+        /* hacemos el display grid*/
+        display: grid;
+        /* especificamos columnas*/
+        grid-template-columns: repeat(12, 1fr); /* fr: unidad de medida como referencia viewport */
+        /* aplicamos aire */
+    
+        /* estaablecemos un tamaño a la row */
+        grid-auto-rows: minmax(200px, auto); /*minmax establece el tamaño minimo y máximo */
+    
+    
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    
+    .main__zonaImagen {
+        /* establecemos las columnas que ocupa esta zona */
+        grid-column: 2/6;
+    
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+
+
+
+}
+
+
