@@ -1,0 +1,80 @@
+// variable que usaremos en los estilos
+$color-fondo: #FFFFFF;
+$color-fondo-header: #000000;
+$color-fondo-nav: #F0F0F0;
+
+$color-letra-fondo: #000000;
+$color-letra-header: #FFFFFF;
+$color-letra-nav: #222222;
+
+$color-borde-elemento-nav: #BE3144;
+
+body{
+    margin: 0%;
+}
+
+
+// funcion para combiar el fondo y la letra del elemento
+@mixin cambiar-fondo-letra($color-nuevo-fondo: #FFFFFF, $color-nuevo-letra: #000000){
+    background-color: $color-nuevo-fondo;
+    color: $color-nuevo-letra;
+}
+
+// funcion para establecer grid
+@mixin establecer-grid($n-columnas: 12){
+    display: grid;
+    grid-template-columns: repeat($n-columnas, 1fr);
+}
+
+.header{
+    @include cambiar-fondo-letra($color-fondo-header, $color-letra-header);
+    @include establecer-grid();
+
+    h1{
+        grid-column: 3/11;
+    }
+}
+
+.nav-bar{
+    @include cambiar-fondo-letra($color-fondo-nav, $color-letra-nav);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    // height: 2em;
+
+    div{
+        padding-left: 1em;
+        padding-right: 1em;
+
+        a{
+            text-decoration: none;
+            padding: 1em;
+            color: inherit; // hereda el color de su padre
+        }
+
+        a:hover{
+            border-bottom: 2px solid $color-borde-elemento-nav;
+        }
+    }
+
+    .a_active{
+        border-bottom: 2px solid $color-borde-elemento-nav;
+    }
+}
+
+.main__content{
+    @include cambiar-fondo-letra($color-fondo, $color-letra-nav);
+    @include establecer-grid();
+
+    .main__publicacion{
+        grid-column: 3/11;
+    }
+}
+
+
+
