@@ -82,6 +82,11 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 
+  b{
+    text-decoration: none;
+    color:$color-enlaces
+  }
+
   p{
     margin-top: 0%;
     padding-top: 0% ;
@@ -107,4 +112,51 @@ body {
 .subtitulo{
     text-align: center;
     font-style: italic;
+}
+
+#subtitulo{
+  text-align: center;
+  p{
+    margin: 0%;
+    padding: 0%;  
+  }
+
+  b{
+    text-decoration: none;
+    color:$color-enlaces
+  }
+}
+
+.selected{
+  border-bottom: 3px solid $color-enlaces;
+}
+
+.footer{
+  height: 120px;
+  width: 100%;
+  background-color: $color-fondo-footer;
+  color: $color-texto-footer;
+  grid-column: 1/12;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  div{
+    grid-column: 3/10;
+    // margin: 0;
+    // padding: 0;
+    img, p{
+      margin: 0%;
+      padding: 0%;
+    }
+  }
+
+}
+
+.artuculo-intro{
+
+  grid-column: 4/9;
+
+  border-bottom: 4px solid $color-borde;
+  border-top: 4px solid $color-borde;
 }

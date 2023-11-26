@@ -59,6 +59,10 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+.zonaContent b {
+  text-decoration: none;
+  color: #cc0000;
+}
 .zonaContent p {
   margin-top: 0%;
   padding-top: 0%;
@@ -81,6 +85,45 @@ body {
 .subtitulo {
   text-align: center;
   font-style: italic;
+}
+
+#subtitulo {
+  text-align: center;
+}
+#subtitulo p {
+  margin: 0%;
+  padding: 0%;
+}
+#subtitulo b {
+  text-decoration: none;
+  color: #cc0000;
+}
+
+.selected {
+  border-bottom: 3px solid #cc0000;
+}
+
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  grid-column: 1/12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.footer div {
+  grid-column: 3/10;
+}
+.footer div img, .footer div p {
+  margin: 0%;
+  padding: 0%;
+}
+
+.artuculo-intro {
+  grid-column: 4/9;
+  border-bottom: 4px solid #dddddd;
+  border-top: 4px solid #dddddd;
 }
 
 /*# sourceMappingURL=style.css.map */
