@@ -1,0 +1,50 @@
+h1, h2, h3, h4, div, a {
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+.header {
+  background-color: #a8323c;
+  grid-template-columns: repeat(12, 1fr);
+  height: auto;
+  min-height: 10vh;
+  display: grid;
+}
+
+.header .header__titulo {
+  grid-column: 2 / 9;
+  height: 100%;
+}
+
+.header .header__nav {
+  background-color: #2a96b9;
+  grid-column: 9 / 12;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.header .header__nav .nav__hamburguer {
+  cursor: pointer;
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.header .header__nav .nav__hamburguer .nav__span {
+  background-color: #000;
+  border-radius: 2px;
+  width: 30px;
+  height: 4px;
+  margin: 2px;
+  transition: all .5s ease-in;
+}
+
+.header .header__nav .nav__hamburguer:hover .nav__span:nth-child(2) {
+  background-color: #0ff;
+  transform: scale(.8);
+}
+
+/*# sourceMappingURL=index.3a9aca69.css.map */

@@ -1,0 +1,16 @@
+{
+  "name": "guia_sass-3-proyectox",
+  "version": "1.0.0",
+  "description": "Prueba Module Blunder",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "David gutierrez",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
