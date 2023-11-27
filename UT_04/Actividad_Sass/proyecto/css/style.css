@@ -49,6 +49,7 @@ body {
   border-bottom: 4px solid #dddddd;
 }
 .zonaNav a {
+  color: #222222;
   text-decoration: none;
   margin-left: 40px;
   margin-right: 40px;
@@ -89,14 +90,12 @@ body {
   font-style: italic;
 }
 
-#subtitulo {
+.subtitulo-2 {
   text-align: center;
+  margin-top: 0%;
+  padding-top: 0%;
 }
-#subtitulo p {
-  margin: 0%;
-  padding: 0%;
-}
-#subtitulo b {
+.subtitulo-2 a {
   text-decoration: none;
   color: #cc0000;
 }
@@ -118,14 +117,29 @@ body {
   grid-column: 3/10;
 }
 .footer div img, .footer div p {
+  color: #ffffff;
   margin: 0%;
   padding: 0%;
 }
 
-.artuculo-intro {
+.articulo-intro {
   grid-column: 4/9;
   border-bottom: 4px solid #dddddd;
   border-top: 4px solid #dddddd;
+}
+
+.bio-foto {
+  border-radius: 50%;
+}
+
+.biografia {
+  grid-column: 7/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.biografia p {
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -70,6 +70,7 @@ body {
   border-bottom: 4px solid $color-borde;
 
   a {
+    color: $color-texto;
     text-decoration: none;
     margin-left: 40px;
     margin-right: 40px;
@@ -118,14 +119,11 @@ body {
     font-style: italic;
 }
 
-#subtitulo{
-  text-align: center;
-  p{
-    margin: 0%;
-    padding: 0%;  
-  }
-
-  b{
+.subtitulo-2{
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 0%;  
+  a{
     text-decoration: none;
     color:$color-enlaces
   }
@@ -150,6 +148,7 @@ body {
     // margin: 0;
     // padding: 0;
     img, p{
+      color: $color-texto-footer;
       margin: 0%;
       padding: 0%;
     }
@@ -157,10 +156,30 @@ body {
 
 }
 
-.artuculo-intro{
+.articulo-intro{
 
   grid-column: 4/9;
 
   border-bottom: 4px solid $color-borde;
   border-top: 4px solid $color-borde;
 }
+
+
+
+.bio-foto{
+  border-radius: 50%;
+}
+
+.biografia{
+
+  grid-column: 7/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    margin: 20px;
+  }
+
+}
+
+
