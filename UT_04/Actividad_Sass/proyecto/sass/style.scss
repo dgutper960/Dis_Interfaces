@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6{
   color: $color-texto;
 }
 
-p, a{
+p, a, ol, ul{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: $color-texto;
 }
@@ -105,6 +105,9 @@ body {
       justify-content: center;
       margin: 30px;
     }
+  }
+  .webgrafia{
+    grid-column: 7/9;
   }
 }
 
