@@ -1,0 +1,24 @@
+.login__main{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+
+
+}
+
+.main__zonaCorporativa{
+
+    grid-column: 2/7;
+
+    display: flex;
+
+    background-color: beige;
+}
+
+.main__mian__zonaForm{
+
+    grid-column: 7/12;
+
+    background-color: cornflowerblue;
+}
