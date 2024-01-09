@@ -1,0 +1,64 @@
+.login__main{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    min-height: 90vh;
+
+}
+
+.main__zonaCorporativa{
+
+    grid-column: 2/7;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: beige;
+}
+
+.main__zonaForm{
+
+    grid-column: 7/12;
+
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    background-color: cornflowerblue;
+}
+
+.zonaForm__login-form{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2em 1em 2em 1em;
+
+    .login-form__box{
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+
+        position: relative; /* ultimo elemento posicionado (no hace nada más) */
+
+        .box-icon{
+
+            // background-image: url(..\assets\images\key.png);
+
+            width: 15px;
+            height: 15px;
+            background-color: black;
+
+            position: absolute; /* Se posiciona respecto al ultimo elemento posicionado*/
+            right: 5px;
+            top: 1.4em;
+        }
+    
+    }
+}
