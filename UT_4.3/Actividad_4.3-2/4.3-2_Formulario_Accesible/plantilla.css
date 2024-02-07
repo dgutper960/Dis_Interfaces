@@ -1,0 +1,237 @@
+/* contenedor-principal
+
+position: absolute;
+width: 1088px;
+height: 656px;
+left: 176px;
+top: 230px;
+
+background: #FDF8D2;
+
+
+/* texto-bienvenida */
+/* 
+position: absolute;
+width: 447px;
+height: 162px;
+left: calc(50% - 447px/2 - 314.5px);
+top: 545px;
+
+font-family: 'Playball';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+color: #5C5130; */
+
+
+
+/* Formulario */
+
+/* position: absolute;
+width: 533px;
+height: 590px;
+left: 622px;
+top: 268px;
+
+background: rgba(216, 134, 31, 0.45); */
+
+
+/* input-nombre */
+/* 
+position: absolute;
+width: 389px;
+height: 39px;
+left: 62px;
+top: 71px;
+
+background: #FFFFFF; */
+
+
+/* input-email */
+
+/* position: absolute;
+width: 389px;
+height: 39px;
+left: 62px;
+top: 161px;
+
+background: #FFFFFF; */
+
+
+/* input-asunto */
+/* 
+position: absolute;
+width: 389px;
+height: 39px;
+left: 62px;
+top: 251px;
+
+background: #FFFFFF; */
+
+
+/* caja-texto */
+
+/* position: absolute;
+width: 389px;
+height: 160px;
+left: 62px;
+top: 341px;
+
+background: #FFFFFF; */
+
+
+/* label-nombre */
+
+/* position: absolute;
+width: 151px;
+height: 22px;
+left: 62px;
+top: 42px;
+
+font-family: 'Varela';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px; */
+
+/* identical to box height */
+/* text-align: center;
+
+color: #5C5130; */
+
+
+
+/* label-email */
+
+/* position: absolute;
+width: 45px;
+height: 22px;
+left: 62px;
+top: 131px;
+
+font-family: 'Varela';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px; */
+/* identical to box height */
+/* text-align: center;
+
+color: #5C5130; */
+
+
+
+/* label-asunto */
+
+/* position: absolute;
+width: 58px;
+height: 22px;
+left: 62px;
+top: 223px;
+
+font-family: 'Varela';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px; */
+/* identical to box height */
+/* text-align: center;
+
+color: #5C5130; */
+
+
+
+/* label-mensaje */
+
+/* position: absolute;
+width: 69px;
+height: 22px;
+left: 62px;
+top: 310px;
+
+font-family: 'Varela';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px; */
+/* identical to box height */
+/* text-align: center;
+
+color: #5C5130; */
+
+
+
+/* boton-enviar */
+
+/* position: absolute;
+width: 112px;
+height: 36px;
+left: 64px;
+top: 518px;
+
+background: #5C5130; */
+
+
+/* Enviar */
+
+/* position: absolute;
+width: 51px;
+height: 22px;
+left: 30px;
+top: 7px;
+
+font-family: 'Varela';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px; */
+/* identical to box height */
+/* text-align: center;
+
+color: #FFFFFF; */
+
+
+
+/* boton-borrar */
+
+/* position: absolute;
+width: 112px;
+height: 36px;
+left: 195px;
+top: 518px;
+
+background: #5C5130; */
+
+
+/* Borrar */
+/* 
+position: absolute;
+width: 52px;
+height: 22px;
+left: 29px;
+top: 7px;
+
+font-family: 'Varela';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px; */
+/* identical to box height */
+/* text-align: center;
+
+color: #FFFFFF; */
+
+
+
+/* logo 1 */
+
+/* position: absolute;
+width: 195px;
+height: 192px;
+left: 308px;
+top: 320px;
+
+background: url(logo.png); */ 
