@@ -20,7 +20,7 @@
 
 body {
   margin: 0;
-  font-family:'Courier New', Courier, monospace;
+  font-family:'OpenDyslexic-Regular';
 }
 
 a {
@@ -87,7 +87,7 @@ a {
     display: flex;
     flex-direction: column;
 
-    font-family: 'Playball';
+    font-family: 'OpenDyslexic-Bold';
 }
 
 .p1{
@@ -114,7 +114,7 @@ a {
   align-content: center;
   align-items: center;
 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'OpenDyslexic-Regular';
 }
 
 .container__form--form{
@@ -137,22 +137,22 @@ a {
 .input {
     width:  70%;
     height:  2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'OpenDyslexic-Regular';
   }
 
   .input::placeholder {
     width:  70%;
     height:  2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'OpenDyslexic-BoldItalic';
   }
 
   .input__texarea{
     width:  70%;
     height:  20em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'OpenDyslexic-Regular';
   }
   .input__texarea::placeholder{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'OpenDyslexic-BoldItalic';
   }
 
   
@@ -166,6 +166,8 @@ a {
     height: 30px;
     border: none;
     cursor: pointer;
+
+    font-family: 'OpenDyslexic-Regular';
   }
 
   #button__reset{
@@ -177,6 +179,8 @@ a {
     height: 30px;
     border: none;
     cursor: pointer;
+
+    font-family: 'OpenDyslexic-Regular';
 
   }
 
