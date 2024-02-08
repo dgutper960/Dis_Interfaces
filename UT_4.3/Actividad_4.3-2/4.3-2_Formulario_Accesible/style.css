@@ -1,5 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@font-face {
+  font-family: 'OpenDyslexic-Bold';
+  src: url('fonts/OpenDyslexic-Bold.otf');
+}
+@font-face {
+  font-family: 'OpenDyslexic-BoldItalic';
+  src: url('fonts/OpenDyslexic-BoldItalic.otf');
+}
+@font-face {
+  font-family: 'OpenDyslexic-Italic';
+  src: url('fonts/OpenDyslexic-Italic.otf');
+}
+@font-face {
+  font-family: 'OpenDyslexic-Regular';
+  src: url('fonts/OpenDyslexic-Regular.otf');
+}
+
+
 body {
   margin: 0;
+  font-family:'Courier New', Courier, monospace;
 }
 
 a {
@@ -23,6 +44,13 @@ a {
   padding-bottom: 20px;
 }
 
+.boton__accesible{
+  border: none;
+  border-bottom-style: none;
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+
 .main {
   background-color: #FDF8D2;
   height: 80vh;
@@ -43,27 +71,39 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
+
+
 
  .container__welcome--logo {
     padding-top: 10%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 
-    /* display: flex;
-    justify-content: center; */
 }
 
 .container__welcome--mensaje {
 
     padding-top: 5%;
-    /* margin-left: 10%; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    text-justify: center; */
-} 
+
+    font-family: 'Playball';
+}
+
+.p1{
+  font-size: 42px;
+  margin: 0;
+}
+
+.p2{
+  font-size: 34px;
+  margin: 0;
+}
+.p3{
+  font-size: 34px;
+  margin: 0;
+}
+
 
 .container__form--container {
   grid-column: 3/6;
@@ -73,6 +113,8 @@ a {
   justify-content: start;
   align-content: center;
   align-items: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container__form--form{
@@ -81,15 +123,15 @@ a {
     width: 65%;
 }
 
-#firsh__label{
-    padding-top: 5%;
-    margin-top: 2%;
-    margin-left: 7%;
-}
+  #first__label{
+      padding-top: 5%;
+      margin-top: 2%;
+      margin-left: 7%;
+  }
 
 .group_input{
   margin-top: 4%;
-    margin-left: 7%;
+  margin-left: 7%;
 }
 
 .input {
@@ -97,10 +139,21 @@ a {
     height:  2em;
   }
 
+  .input::placeholder {
+    width:  70%;
+    height:  2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
   .input__texarea{
     width:  70%;
     height:  20em;
   }
+  .input__texarea::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  
 
   #button__submit{
     margin-left: 7%;

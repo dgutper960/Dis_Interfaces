@@ -16,6 +16,7 @@
         <a class="header__a" href="catalogo.html">Catálogo</a>
         <a class="header__a" href="sobre_nosotros.html">Sobre nosotros</a>
         <a class="header__a" href="contacto.html">Contacto</a>
+        <button class="boton__accesible"><img src="images/accesibilidad.png" height="35px" alt="activar/desactivar accesibilidad dislexia"></button>
       </div>
     </header>
 
@@ -29,16 +30,15 @@
           />
         </div>
         <div class="container__welcome--mensaje">
-          <p>Formulario de Contacto</p>
-          <p>
-            Gracias por su interés <br />Le responderemos <br />lo más pronto
-            posibe
-          </p>
+          <p class="p1">Formulario de Contacto</p>
+          <p class="p2">Gracias por su interés</p>
+          <p class="p3">Le responderemos lo antes posibe</p>
+  
         </div>
       </div>
       <div class="container__form--container">
         <div class="container__form--form">
-          <div id="firsh__label">
+          <div class="group_input" id="first__label">
             <label for="nombre">Nombre Completo</label>
             <br />
             <input
@@ -47,22 +47,23 @@
               height="10"
               type="text"
               id="nombre"
+              placeholder="Su nombre aquí"
             />
           </div>
           <div class="group_input">
             <label for="email">Email</label>
             <br />
-            <input class="input" type="email" id="email" />
+            <input class="input" type="email" id="email" placeholder="Su correo eletrónico"/>
           </div>
           <div class="group_input">
             <label for="asunto">Asunto</label>
             <br />
-            <input class="input" type="text" id="asunto" />
+            <input class="input" type="text" id="asunto" placeholder="Motivo de su contacto" />
           </div>
           <div class="group_input">
             <label for="mensaje">Mensaje</label>
             <br />
-            <input class="input__texarea" type="textarea" id="mensaje" />
+            <textarea class="input__texarea" type="text" id="mensaje" placeholder="Su mensaje en este espacio" ></textarea>
           </div>
           <div>
             <button id="button__submit" type="submit">Enviar</button>
