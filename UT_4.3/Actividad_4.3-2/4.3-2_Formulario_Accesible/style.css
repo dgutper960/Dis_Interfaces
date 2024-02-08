@@ -93,7 +93,7 @@ a {
 
 #firsh__label{
     padding-top: 95px;
-    margin-top: 85%;
+    margin-top: 85px;
     margin-left: 5%;
 }
 
@@ -120,6 +120,7 @@ label{
     width: 90px;
     height: 30px;
     border: none;
+    cursor: pointer;
   }
 
   #button__reset{
@@ -130,6 +131,7 @@ label{
     width: 90px;
     height: 30px;
     border: none;
+    cursor: pointer;
 
   }
 
