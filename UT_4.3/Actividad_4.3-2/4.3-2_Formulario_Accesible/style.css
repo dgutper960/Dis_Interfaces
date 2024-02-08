@@ -76,44 +76,33 @@ a {
 
 .container__form--form{
     background-color: #d8851f91;
-
-    /* margin-top: 2%;
-    margin-bottom: 5%;
-    margin-right: 25%; */
-
     height: 90%;
     width: 65%;
-
-    /* padding: 0.01px;
-    position: relative;
-    overflow: auto; */
-
-
 }
 
 #firsh__label{
-    padding-top: 95px;
-    margin-top: 85px;
-    margin-left: 5%;
+    padding-top: 5%;
+    margin-top: 2%;
+    margin-left: 7%;
 }
 
-label{
-    margin-top: 65px;
-    margin-top: 5%;
-    margin-left: 5%;
-  }
+.group_input{
+  margin-top: 4%;
+    margin-left: 7%;
+}
 
 .input {
     width:  70%;
     height:  2em;
+  }
 
-    margin-left: 5%;
-    margin-top: 5px;
-    /* padding-left: 20px; */
+  .input__texarea{
+    width:  70%;
+    height:  20em;
   }
 
   #button__submit{
-    margin-left: 5%;
+    margin-left: 7%;
     margin-top: 10px;
     background-color: #5C5130;
     color: #FFFFFF;
