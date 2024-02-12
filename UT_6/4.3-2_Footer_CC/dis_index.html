@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Contacto - Proyecto Integrado</title>
+    <link rel="stylesheet" href="styles_dis.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__titulo">
+        <h1>Dulces Caseros Ana de Consuelo</h1>
+      </div>
+      <div class="header__enlaces">
+        <a class="header__a" href="inicio.html">Inicio</a>
+        <a class="header__a" href="#">Catálogo</a>
+        <a class="header__a" href="#">Sobre nosotros</a>
+        <a class="header__a" href="#">Contacto</a>
+        <a class="boton__accesible"  href="index.html"><img src="images/accesibilidad.png" height="35px" alt="activar/desactivar accesibilidad dislexia"></a>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container__welcome">
+        <div class="container__welcome--logo">
+          <img
+            height="200px"
+            src="images/logo.png"
+            alt="Logo Ana de Consuelo"
+          />
+        </div>
+        <div class="container__welcome--mensaje">
+          <p class="p1">Formulario de Contacto</p>
+          <p class="p2">Gracias por su interés</p>
+          <p class="p3">Le responderemos lo antes posibe</p>
+  
+        </div>
+      </div>
+      <div class="container__form--container">
+        <div class="container__form--form">
+          <div class="group_input" id="first__label">
+            <label for="nombre">Nombre Completo</label>
+            <br />
+            <input
+              class="input"
+              width="30"
+              height="10"
+              type="text"
+              id="nombre"
+              placeholder="Su nombre aquí"
+            />
+          </div>
+          <div class="group_input">
+            <label for="email">Email</label>
+            <br />
+            <input class="input" type="email" id="email" placeholder="Su correo eletrónico"/>
+          </div>
+          <div class="group_input">
+            <label for="asunto">Asunto</label>
+            <br />
+            <input class="input" type="text" id="asunto" placeholder="Motivo de su contacto" />
+          </div>
+          <div class="group_input">
+            <label for="mensaje">Mensaje</label>
+            <br />
+            <textarea class="input__texarea" type="text" id="mensaje" placeholder="Su mensaje en este espacio" ></textarea>
+          </div>
+          <div>
+            <button id="button__submit" type="submit">Enviar</button>
+            <button id="button__reset" type="reset">Borrar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__redes">
+        <a class="footer_redes--a" href="facebook.es"
+          ><img src="#" alt="facebook"
+        /></a>
+        <a class="footer_redes--a" href="instagram.es"
+          ><img src="#" alt="instagram"
+        /></a>
+        <a class="footer_redes--a" href="tiktok.es"
+          ><img src="#" alt="tiktok"
+        /></a>
+      </div>
+      <div class="footer__titulo">
+        <a href="#header"><h2>Dulces Caseros Ana de Consuelo</h2></a>
+      </div>
+      <div class="footer__titulo">
+        <p xmlns:cc="http://creativecommons.org/ns#">
+          <a
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref= selecter-v1"
+            target="_blank"
+            rel="licencia noopener noreferrer"
+            style="display: inline-block"
+            >CC BY-NC-SA 4.0<img
+              style="
+                height: 22px !important;
+                margin-left: 3px;
+                alineación-vertical: text-bottom;
+              "
+              src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img
+              style="
+                height: 22px !important;
+                margin-left: 3px;
+                vertical-align: text -abajo;
+              "
+              src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img
+              style="
+                height: 22px !important;
+                margin-left: 3px;
+                vertical-align: text -abajo;
+              "
+              src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img
+              style="
+                height: 22px !important;
+                margin-left: 3px;
+                vertical-align: text -abajo;
+              "
+              src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+          /></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
